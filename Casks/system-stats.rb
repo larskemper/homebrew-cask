@@ -2,8 +2,8 @@ cask "system-stats" do
   version "0.1.0"
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm:   "6b6b83b92bac7efbfdcbd84635687970dd44e10a93573931a9cdd8696491f34e",
-         intel: "8e488330c61ca2cf48781699453079291e8a3e3d1c74a4dd8fcf9852ab3bdadb"
+  sha256 arm:   "d168b3bd18dfe18619324958f3b8a18ce457ae7c7ed55ec0af1201763c708acc",
+         intel: "93d5b4b0c46ec0d20bafc50db95c7b0b2035e0d22c2af2aaa9b075945d325f8e"
 
   url "https://github.com/larskemper/macos-menu-bar-stats/releases/download/v#{version}/system-stats-#{arch}.dmg"
   name "System Stats"
